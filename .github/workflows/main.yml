@@ -6,8 +6,7 @@ on:
       - master
 env:
   CX_SERVER: "https://cxprivatecloud.checkmarx.net/"
-  #CX_TEAM: ${{ secrets.CX_TEAM }}
-  CX_TEAM: 'CxServer/SP/America/NA-RR-PS'
+  CX_TEAM: ${{ secrets.CX_TEAM }}
   CX_PRESET: "Checkmarx Default"
   CX_USER: ${{ secrets.CX_USER }}
   CX_PASSWORD: ${{ secrets.CX_PASSWORD }}
